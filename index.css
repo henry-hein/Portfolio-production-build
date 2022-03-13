@@ -468,3 +468,33 @@ img {
   border-bottom: 2px solid var(--first-color);
 }
 
+/* CONTACT */
+.contact__container {
+  row-gap: 3rem;
+}
+
+.contact__input {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  background-color: var(--first-color-light);
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-2);
+  border-radius: 0.5rem;
+}
+
+.contact ::placeholder{
+  color: --first-color-darken;
+  font-family: var(--body-font);
+  font-weight: var(--font-medium);
+}
+
+.contact__button {
+  outline: none;
+  border: none;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+}
+
