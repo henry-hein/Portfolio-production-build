@@ -344,7 +344,6 @@ img {
   font-size: 1.5rem;
   color: var(--first-color-dark);
   margin-right: var(--mb-4);
-
 }
 
 .skills__body {
@@ -423,7 +422,7 @@ img {
 
 .works__data {
   position: absolute;
-  top: -100%;
+  bottom: -100%;
   width: 100%;
   height: 100%;
   display: flex;
@@ -455,7 +454,7 @@ img {
 }
 
 .works__img:hover .works__data {
-  top: 0; 
+  bottom: 0; 
 }
 
 .works__description {
@@ -538,3 +537,114 @@ img {
   font-size: var(--smaller-font-size);
   color: var(--first-color);
 }
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .home__button {
+    width: initial;
+  }
+
+  .nav__menu {
+    width: var(--nav-width);
+  }
+
+  .about__container,
+  .works__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about__data {
+    text-align: initial;
+  }
+
+  .about__description {
+    margin-bottom: var(--mb-2);
+    font-size: var(--normal-font-size);
+  }
+
+  .about__information {
+    padding-left: 2rem;
+  }
+
+  .skills__body{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .skills__icons {
+    margin-right: var(--mb-1);
+  }
+
+  .education__time {
+    padding: 0 2rem;
+  }
+
+  .works__link, .works__title {
+    margin-bottom: var(--mb-1);
+  }
+
+  .works__img > img {
+    height: 100%;
+  }
+
+  .works__description {
+    font-size: var(--smaller-font-size);
+  }
+  
+  .contact__inputs {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1.5rem;
+  }
+
+  .footer {
+    background: none;
+  }
+
+  .footer__container {
+    background-color: var(--first-color-darken);
+    padding: 3rem 0;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin: 0;
+    padding-left: var(--nav-width);
+  }
+  
+  .l-header {
+    width: 0;
+  }
+
+  .nav__toggle, .nav__logo, .nav__close {
+    display: none;
+  }
+
+  .nav__menu {
+    left: 0;
+  }
+
+  .home__container {
+    height: 100vh;
+  }
+
+  .section {
+    padding: 3rem 0 2rem;
+  }
+
+  .bd-grid {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .works__container {
+    grid-template-columns: repeat(3, 1fr );
+  }
+}
+
+/* dont forget to change font-size for of works__description to normal font size when we go back to 1000px and above.
+
+bigger font size for about__description
+ 
