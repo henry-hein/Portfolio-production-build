@@ -258,6 +258,7 @@ img {
 
 .home__button {
   width: 100%;
+  cursor: pointer;
 }
 
 .button {
@@ -639,8 +640,8 @@ img {
     margin-left: auto;
   }
 
-  .works__container {
-    grid-template-columns: repeat(3, 1fr );
+  .works__title {
+    font-size: var(--h3-font-size);
   }
 }
 
