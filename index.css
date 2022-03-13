@@ -150,7 +150,7 @@ img {
   padding: 3rem;
   display: flex;
   align-items: center;
-  background-color: var(--first-color);
+  background-color: var(--first-color-dark);
   transition: 0.5s;
 }
 
@@ -158,7 +158,7 @@ img {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: var(--first-color-dark);
+  color: var(--first-color-darken);
   cursor: pointer;
 }
 
@@ -169,7 +169,7 @@ img {
 .nav__link {
   font-size: 1rem;
   text-transform: uppercase;
-  color: var(--first-color-dark);
+  color: var(--first-color);
   font-weight: var(--font-bold);
   transition: 0.3s;
 }
@@ -360,7 +360,7 @@ img {
 
 .education__content {
   display: grid;
-  grid-template-columns: 1fr max-content 1fr;
+  grid-template-columns: 0.8fr max-content 1fr;
 }
 
 .education__year, .education__race {
@@ -408,3 +408,63 @@ img {
   background-color: var(--first-color-dark);
   transform: translate(5px, -4px);
 }
+
+/* PROJECTS */
+.works__container {
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+.works__img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.works__data {
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(12,155,160, 0.7);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.works__link {
+  display: inline-flex;
+  font-size: 1.5rem;
+  background-color: var(--first-color-darken);
+  color: var(--first-color);
+  padding: 0.25rem;
+  margin-bottom: var(--mb-2);
+}
+
+.works__link:first-child {
+  margin-right: 1rem;
+}
+
+.works__title {
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-2);
+}
+
+.works__img:hover .works__data {
+  top: 0; 
+}
+
+.works__description {
+  font-size: var(--normal-font-size);
+  color: var(--first-color);
+  text-align: center;
+}
+
+.underline {
+  border-bottom: 2px solid var(--first-color);
+}
+
