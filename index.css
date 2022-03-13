@@ -304,7 +304,7 @@ img {
 
 .about__information-title {
   font-size: var(--h3-font-size);
-  color: var(--first-color-dark);
+  color: var(--first-color-darken);
   margin-bottom: var(--mb-2);
 }
 
@@ -319,5 +319,40 @@ img {
   font-size: 1.5rem;
   color: var(--first-color-dark);
   margin-right: var(--mb-4);
+}
+
+/* SKILLS */
+
+.skills__container {
+  row-gap: 2rem;
+}
+
+.skills__subtitle {
+  font-size: var(--h3-font-size);
+  color: var(--first-color-darken);
+  margin-bottom: var(--mb-3);
+}
+
+.skills__data {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-4) ;
+  padding-left: 1.5rem;
+}
+
+.skills__icons {
+  font-size: 1.5rem;
+  color: var(--first-color-dark);
+  margin-right: var(--mb-4);
+
+}
+
+.skills__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__section-right {
+
 }
 
