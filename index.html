@@ -230,13 +230,13 @@
   <section class="contact section" id="contact">
     <h2 class="section-title">Get in Touch!</h2>
     <div class="contact__container bd-grid">
-      <form action="" class="contact__form">
+      <form action="" class="contact__form" onsubmit="sendEmail(); reset(); return false">
         <div class="contact__inputs">
-          <input type="text" placeholder="Name" class="contact__input">
-          <input type="email" placeholder="Email" class="contact__input">
+          <input type="text" placeholder="Name" class="contact__input" id="name" required>
+          <input type="email" placeholder="Email" class="contact__input" id="email" required>
         </div>
-        <input type="text" placeholder="Subject" class="contact__input">
-        <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+        <input type="text" placeholder="Subject" id="subject" class="contact__input" required>
+        <textarea name="" id="message" cols="0" rows="10" placeholder="Message" class="contact__input" required></textarea>
         <input type="submit" value="Send Message" class="button contact__button">
       </form>
     </div>
@@ -255,6 +255,7 @@
       <p class="footer__copy">All rights reserved.</p>
     </div>
   </footer>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 <script type="text/javascript" src="index.js"></script>
 </html>
