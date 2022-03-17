@@ -41,3 +41,20 @@ function scrollActive() {
     }
   })
 }
+
+// Send Email
+
+function sendEmail() {
+  Email.send({
+    SecureToken: "48e2deee-1b69-4d3f-a6a2-e03318e00677",
+    To : 'henryhein.hein@gmail.com',
+    From : document.getElementById('email').value,
+    Subject : "New Inquiry!",
+    Body : "Name :" + document.getElementById('name').value
+            + "<br/> Email: " + document.getElementById('email').value
+            + "<br> Subject: " + document.getElementById('subject').value
+            + "<br> Message: " + document.getElementById('message').value
+}).then(
+  message => alert("Email sent successfully! I'll get back to you soon!")
+);
+}
