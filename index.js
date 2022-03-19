@@ -21,7 +21,6 @@ navLink.forEach(link => link.addEventListener('click', () => {
 }))
 
 // SCROLL SECTIONS ACTIVE LINK
-
 const sections = document.querySelectorAll('section[id]')
 
 window.addEventListener('scroll', scrollActive);
@@ -42,7 +41,7 @@ function scrollActive() {
   })
 }
 
-// Send Email
+// SEND EMAIL
 
 function sendEmail() {
   Email.send({
@@ -50,7 +49,7 @@ function sendEmail() {
     To : 'henryhein.hein@gmail.com',
     From : document.getElementById('email').value,
     Subject : "New Inquiry!",
-    Body : "Name :" + document.getElementById('name').value
+    Body : "Name :" + document.getElementById('username').value
             + "<br/> Email: " + document.getElementById('email').value
             + "<br> Subject: " + document.getElementById('subject').value
             + "<br> Message: " + document.getElementById('message').value
@@ -58,3 +57,4 @@ function sendEmail() {
   message => alert("Email sent successfully! I'll get back to you soon!")
 );
 }
+

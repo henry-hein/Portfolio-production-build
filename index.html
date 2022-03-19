@@ -135,20 +135,6 @@
           <span class="education__specialty">Electronics Engineering</span>
         </div>
       </div>
-      <div class="education__content">
-        <div>
-          <h3 class="education__year">2021 - Present</h3>
-          <span class="education__university">Altcademy Bootcamp</span>
-        </div>
-        <div class="education__time">
-          <span class="education__rounder"></span>
-          <span class="education__line"></span>
-        </div>
-        <div>
-          <h3 class="education__race">Web Developer Certificate</h3>
-          <span class="education__specialty">Full-stack Web Development</span>
-        </div>
-      </div>
     </div>
   </section>
   
@@ -230,9 +216,9 @@
   <section class="contact section" id="contact">
     <h2 class="section-title">Get in Touch!</h2>
     <div class="contact__container bd-grid">
-      <form action="" class="contact__form" onsubmit="sendEmail(); reset(); return false">
+      <form action="" id="form" class="contact__form" onsubmit="sendEmail(); reset(); return false">
         <div class="contact__inputs">
-          <input type="text" placeholder="Name" class="contact__input" id="name" required>
+          <input type="text" placeholder="Name" class="contact__input" id="username" required>
           <input type="email" placeholder="Email" class="contact__input" id="email" required>
         </div>
         <input type="text" placeholder="Subject" id="subject" class="contact__input" required>
