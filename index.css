@@ -645,3 +645,8 @@ img {
   }
 }
 
+/* FORM VALIDATION */
+
+#error {
+  color: red;
+}
