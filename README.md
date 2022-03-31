@@ -35,7 +35,7 @@ Portolio website is an opportunity to learn about creating beautiful front-end a
 
 ### Projects
 
-![Projects](Projects.png)
+![Projects](Project.png)
 
 ### Contact
 
