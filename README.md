@@ -11,10 +11,9 @@ Personal portfolio website that includes my resume, social media accounts, more 
 
 ## Motivation
 
-Currency converter is an opportunity to learn about creating Mobile Responsive Website using React, React Hooks, as well as work with public APIs, learn version management with Github and continuous deployment using Heroku platform.
+Portolio website is an opportunity to learn about creating beautiful front-end and Mobile Responsive UI using HTML, CSS, and Javascript. Additionally, it was a chance to learn how to setup CSS formatting for scalability and figure out how to implement interactive and email form features using Javascript.
 
 ## Technology
-
 
 ![HTML5](https://imgs.search.brave.com/2xnxFMcDoKYaOu12Z0nTSfC55aSIHpiJa7PDV1YQ2ZU/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC40/ZFFreExtLWNBbmRW/LTlPZlZqalF3SGFF/OCZwaWQ9QXBp) ![CSS](https://imgs.search.brave.com/tYCpst0AI9pM2BLWnXQpwUCiZrpXMID-8KYO3YbGWA4/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5m/S3RFQTZWU3VDUGgw/bkN5MlZUblpRSGFF/OCZwaWQ9QXBp) ![JS](https://imgs.search.brave.com/kImq59LIjOxp8zbBqe9bXLSj15HZDriLYz2xJrX28_g/rs:fit:537:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5B/MG1aamlZd2JKdldq/RF9WVkVVOHRnSGFH/aSZwaWQ9QXBp) ![Netlify](https://imgs.search.brave.com/aBFlemvrKIZCVcGW62-rgXkpY6JXeH9Nmgb0ndTTWhc/rs:fit:888:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5X/TUFfTllGZnZaSXB4/X3V2UXhRUUVBSGFE/OSZwaWQ9QXBp) ![Github](https://imgs.search.brave.com/x9Fb7I00OXkXE7z1-9Jh_Odj8KLNI7VHpT0iKGFauaA/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/eU9Nbjl3ajh0WkNF/eUNQVFlHbGVnSGFI/YSZwaWQ9QXBp)
 
@@ -26,14 +25,18 @@ Currency converter is an opportunity to learn about creating Mobile Responsive W
 
 ## Features
 
-### Currency Conversion and Swap
+### Mobile Responsive Design
 
-![6ao1wy](6ao1wy.gif)
+![mobile-portfolio](mobile-portfolio.gif)
 
-### Historical Conversion Chart
+### Info Section
 
-![6ao11i](6ao11i.gif)
+![Info](Info.png)
 
-### Exchange Rate Table
+### Projects
 
-![6ao9ok](6ao9ok.gif)
+![Projects](Projects.png)
+
+### Contact
+
+![Contact](Contact.png)
