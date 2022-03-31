@@ -1,1 +1,39 @@
-# Portfolio-production-build
+# Mobile Responsive Personal Portfolio Website v2 feat. HTML, CSS, JS, and deployed on netlify
+
+
+**Live Site**: https://henryhein.netlify.app
+
+**Author**: **Henry** [heinhenry@protonmail.com]
+
+Personal portfolio website that includes my resume, social media accounts, more info about me, portolio of projects, and working email form.
+
+![porfolio](portfolio.gif)
+
+## Motivation
+
+Currency converter is an opportunity to learn about creating Mobile Responsive Website using React, React Hooks, as well as work with public APIs, learn version management with Github and continuous deployment using Heroku platform.
+
+## Technology
+
+
+![HTML5](https://imgs.search.brave.com/2xnxFMcDoKYaOu12Z0nTSfC55aSIHpiJa7PDV1YQ2ZU/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC40/ZFFreExtLWNBbmRW/LTlPZlZqalF3SGFF/OCZwaWQ9QXBp) ![CSS](https://imgs.search.brave.com/tYCpst0AI9pM2BLWnXQpwUCiZrpXMID-8KYO3YbGWA4/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5m/S3RFQTZWU3VDUGgw/bkN5MlZUblpRSGFF/OCZwaWQ9QXBp) ![JS](https://imgs.search.brave.com/kImq59LIjOxp8zbBqe9bXLSj15HZDriLYz2xJrX28_g/rs:fit:537:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5B/MG1aamlZd2JKdldq/RF9WVkVVOHRnSGFH/aSZwaWQ9QXBp) ![Netlify](https://imgs.search.brave.com/aBFlemvrKIZCVcGW62-rgXkpY6JXeH9Nmgb0ndTTWhc/rs:fit:888:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5X/TUFfTllGZnZaSXB4/X3V2UXhRUUVBSGFE/OSZwaWQ9QXBp) ![Github](https://imgs.search.brave.com/x9Fb7I00OXkXE7z1-9Jh_Odj8KLNI7VHpT0iKGFauaA/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/eU9Nbjl3ajh0WkNF/eUNQVFlHbGVnSGFI/YSZwaWQ9QXBp)
+
+* **HTML5**: Markup language for front-end UI development
+* **CSS**: Style sheet language for presentation of front-end UI development
+* **Javascript**: Main scripting language for web pages
+* **Netlify**: Cloud based hosting this website
+* **Github**: Version control software for continous integration and deployment
+
+## Features
+
+### Currency Conversion and Swap
+
+![6ao1wy](6ao1wy.gif)
+
+### Historical Conversion Chart
+
+![6ao11i](6ao11i.gif)
+
+### Exchange Rate Table
+
+![6ao9ok](6ao9ok.gif)
