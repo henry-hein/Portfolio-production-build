@@ -540,6 +540,18 @@ img {
 }
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  .works__link, .works__title {
+    margin-bottom: var(--mb-2);
+  }
+
+  .works__description {
+    font-size: var(--small-font-size);
+    padding: 0 var(--mb-2);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .home__button {
     width: initial;
@@ -586,10 +598,13 @@ img {
 
   .works__img > img {
     height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 
   .works__description {
     font-size: var(--smaller-font-size);
+    padding: 0 var(--mb-2);
   }
   
   .contact__inputs {
@@ -644,6 +659,8 @@ img {
     font-size: var(--h3-font-size);
   }
 }
+
+
 
 /* FORM VALIDATION */
 
