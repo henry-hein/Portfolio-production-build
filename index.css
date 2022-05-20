@@ -347,6 +347,12 @@ img {
   margin-right: var(--mb-4);
 }
 
+.skills__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .skills__body {
   display: flex;
   flex-direction: column;
@@ -577,6 +583,10 @@ img {
 
   .about__information {
     padding-left: 2rem;
+  }
+
+  .skills__section {
+    flex-direction: column;
   }
 
   .skills__body{
